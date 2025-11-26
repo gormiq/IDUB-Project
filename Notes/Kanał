@@ -1,0 +1,38 @@
+1.Poczytać o DSGE i kosztowych/finansowych kanałach transmisji. Dużo poczytać. Materiały są ogarnięte.
+
+Cel: zrozumieć strukturę modelu (gospodarstwa, firmy, bank centralny, polityka, szoki).
+Tu warto też spojrzeć na kilka prostych przykładów modeli DSGE, zanim przejdziesz do bardziej złożonych (z energią, kredytem itd.).
+
+Cel na tym etapie:
+wiedzieć, jak wyglądają podstawowe równania (Euler, Phillips curve, monetary rule),
+rozumieć, co oznacza „stacjonaryzacja”, „równowaga ogólna”, „szok monetarny”.
+IMO do 9 skończyć czytanie albo 10 ewentualnie.
+2.Zacząć budować model (w Julii)
+
+Świetnie — tu najlepiej od bardzo prostego modelu (np. Real Business Cycle lub mały New Keynesian DSGE), który działa i daje stabilne wyniki.
+Potem możesz go rozszerzać:
+
+najpierw o kanał kosztowy (czyli dodać finansowanie firm, koszt kredytu),
+
+później ewentualnie o instytucjonalny.
+
+Cel na tym etapie:
+
+zbudować działający szkielet (np. modele w stylu y_t = A y_{t-1} + B ε_t),
+nauczyć się, jak w Julii rozwiązywać i symulować modele DSGE.
+IMO skończyć do 17 model/modele.
+
+3.Zbieranie i czyszczenie danych
+
+Perfekcyjny moment — dopiero kiedy wiesz, jakie parametry/zmienne Ci potrzebne.
+Np. gdy masz już model, zobaczysz, że potrzebujesz:
+
+stóp procentowych PBoC, inflacji, kredytu, cen energii, PKB itp.
+Wtedy pobierasz dane z NBSC, PBoC, IEA, IMF i czyszczysz pod kalibrację lub estymację.
+
+Cel na tym etapie:
+
+mieć spójny zestaw danych (np. kwartalny 2000–2024),
+przygotować dane do kalibracji modelu i symulacji kontrfaktycznej (np. scenariusz 2019 z różnymi politykami monetarnymi).
+
+IMO skończyć do 20 IDK.

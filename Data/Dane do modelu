@@ -1,0 +1,10 @@
+###Tutaj wstawić adres stron z freda i wytłumaczyć czemu dane są niekompletne w 100%
+
+https://fred.stlouisfed.org/series/CHNGDPNQDSMEI tutaj jest GDP, nie było żadnego problemu.
+https://fred.stlouisfed.org/series/COCHNZ3351 to są dane cen energii w Chinach ale nie do końca, ponieważ okazało się, że jedyne pełne dobrze dostępne dane za wiele lat są ukryte za paywallem a nie chciałem płacić więc wybrałem to jako zamiennik. Nie było innej opcji w internecie nie ma nic innego za darmo.
+https://fred.stlouisfed.org/series/IRSTCI01CNM156N to jest interest rate tutaj nie było żadnego problemu.
+https://fred.stlouisfed.org/series/CHNCPIALLQINMEI to jest CPI kwartalny i przekształciłem to na inflacje czyli log różnice CPI czyli kwartalne tempo wzrostu.
+
+Generalnie okres danych w moim modelu jest taki krótki przez problemy z dostępnością danych. Niektóre dane były od lat 90, niektóre (te ceny energii) od bardzo niedawna więc postanowiłem skrócić liste lat zamiast od lat 90 do właśnie tego roku 2012 żeby połowa wierszy w excelu nie była pusta bo to trochę źle wygląda. Nie wiem czy powinienem był tak zrobić.
+
+Generalnie to moja pierwsza styczność ze zbieraniem danych empirycznych i nauczyłem się jak to jest upierdliwe i jak cieżko znaleźć COKOLWIEK związanego z Chinami w dłuższym okresie czasowym więc już raczej nie będe nigdy z nimi więcej nic kombinował.
